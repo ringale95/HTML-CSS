@@ -1,0 +1,103 @@
+s
+<!DOCTYPE html>
+<html>
+    <!--building responsive website */-->
+    <head>
+        <!--Meta tags don't appear on the pages but instead exist within the website's source code, also known as the HTML code, located in the website head.-->
+        <meta name="viewport" content="width-device-width"><!--Without a viewport meta tag, mobile devices render pages at typical desktop screen widths and then scale the pages down, making them difficult to read. Setting the viewport meta tag lets you control the width and scaling of the viewport so that it's sized correctly on all devices.-->
+        <meta name="description" content="Affordable and professional web design">
+        <meta name="keyword" content="web design, affordable web design, professional web design">
+        <meta name="author" content="Raveena Ingale">
+        <title>Acme Web Design | About</title>
+        <link rel="stylesheet" href="CSS/CSSstyles.css">
+        </head>
+        <body>
+            <header>
+                <div class="container"><!--Create a class container to wrap everything inside and to keep everything in middle and dont allow to go aside-->
+                    <div id="branding">
+                        <h1><span class="highlight">Acme</span> Web Design</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">About</a></li>
+                            <li class="current"><a href="index.html">Services</a></li>
+                        </ul>
+
+                    </nav><!-- This is actually used to navigate to something to-->
+                     
+                </div>
+                
+            
+
+            
+
+            <section id="newsletter">
+            <div class="container"> <!--push in middle and consolidate-->
+                <h1> Subscribe to our newsletter</h1>
+                <form>
+                    <input type="email" placeholder="Enter email..">
+                    <button type="Submit" class="button_1">Subscribe</button>
+                </form>
+             </div>
+             </section>
+      
+            <section id="main">
+                <div class="container">
+                <article id="main-col">
+                    <h1 class="page-title">Services</h1>
+                   <ul id="services">
+                    <li>
+                        <h3>Website design</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                            elit. Voluptatum, dolorem?</p>
+                            <p> Pricing: 1000$-1500$</p>
+
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                            elit. Voluptatum, dolorem?</p>
+                            <p> Pricing: 100$-1600$</p>
+
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                            elit. Voluptatum, dolorem?</p>
+                            <p> Pricing:5$</p>
+
+                    </li>
+                   </ul>
+                </article>
+                <aside id="side-bar">
+                    <div class="dark">
+                        <h3> Get a quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Name">
+
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email">
+
+                            <label>Message</label><br>
+                            <input type="text" placeholder="Message">
+
+
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+
+                    </form>
+                    </div>
+                    
+
+                </aside>
+            </section>
+
+            <footer>
+               <p>Acme Web Design, Copyright &copy;2023</p>
+            </footer>
+
+        </body>
+        </html>
