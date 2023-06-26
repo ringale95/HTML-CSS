@@ -1,0 +1,89 @@
+body{
+    background-color: papayawhip;
+    color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    /*Same as above*/
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height: 1.6em;
+
+
+}
+a{
+    text-decoration: none; /*This will remove underline the word"*/
+    color:black;
+}
+a:hover{ /*This will change whenever we hover over something*/
+color:red;
+}
+
+a:active{ 
+    color:green; /*when we click on link it changes to green for sometime that meaans its active */
+}
+
+a:visited{
+    color:yellow; /* if we visit it it will change to yellow*/
+}
+
+
+.container{
+    width: 80%; /*push the changes in from the edges. Set it to   */
+    margin:auto; /* pushed in an even margin from all sides */
+}
+
+.box-1{
+    background-color: grey;
+    border: 5px red solid;
+    border-bottom-width: 10px;
+    border-top-style:dotted;
+    margin: 20px;
+    padding: 20px;
+
+}
+.box-1 h1{
+
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted #ccc;
+    color:black;
+    padding: 20px;
+    margin:20px;
+
+}
+
+.Categories{
+    border:1px #ccc solid;
+    padding: 10px;
+    border-radius:15px;
+
+
+}
+
+.Categories h2{
+    color:black;
+    text-align: center;
+}
+
+.Categories ul{
+    color: blue;
+    padding:0;
+    list-style: square;
+}
+
+.Categories li{
+    padding-bottom:6px;
+    border-bottom: dotted; /*This will give dotted line after each bullet points*/
+    text-align: center;
+    /*list-style-image: url('../images/check.png');This will insert images*/
+
+}

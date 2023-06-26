@@ -1,82 +1,230 @@
-s
 <!DOCTYPE html>
 <html>
-    <!--building responsive website */-->
     <head>
-        <!--Meta tags don't appear on the pages but instead exist within the website's source code, also known as the HTML code, located in the website head.-->
-        <meta name="viewport" content="width-device-width"><!--Without a viewport meta tag, mobile devices render pages at typical desktop screen widths and then scale the pages down, making them difficult to read. Setting the viewport meta tag lets you control the width and scaling of the viewport so that it's sized correctly on all devices.-->
-        <meta name="description" content="Affordable and professional web design">
-        <meta name="keyword" content="web design, affordable web design, professional web design">
-        <meta name="author" content="Raveena Ingale">
-        <title>Acme Web Design | Welcome</title>
-        <link rel="stylesheet" href="CSS/CSSstyles.css">
-        </head>
-        <body>
-            <header>
-                <div class="container"><!--Create a class container to wrap everything inside and to keep everything in middle and dont allow to go aside-->
-                    <div id="branding">
-                        <h1><span class="highlight">Acme</span> Web Design</h1>
-                    </div>
-                    <nav>
-                        <ul>
-                            <li class="current"><a href="index.html">Home</a></li>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="index.html">Services</a></li>
-                        </ul>
+<<<<<<< HEAD
 
-                    </nav><!-- This is actually used to navigate to something to-->
-                     
+        <title>HTML Cheat Sheet</title>
+     </head>
+
+    <body>
+        <!-- Heading types-->
+        <h1>Heading one</h1>
+        <h2> Heading two</h2>
+        <h3>Heading three</h3>
+        <h4>Heading four</h4>
+        <h5>Heading five</h5>
+        <h6>Heading Six</h6>
+
+        <p>Lorem ipsum dolor <strong>sit amet consectetur </strong> adipisicing elit. <em>Laboriosam, molestiae. Lorem ipsum dolor sit amet consectetur
+             adipisicing elit. Doloremque <a href="http://www.google.com" target="_blank"> provident sunt </a>  ullam qui, vitae corporis dolorum, fuga expedita 
+            repellat dolorem numquam, alias earum ab quae eos impedit. Temporibus, mollitia quam.</em></p>
+
+            <!--Lists(ul-> unorderled list -> bulletsand ol -> ordered list-> Numbers)-->
+
+            <ul>
+                <li>list item 1</li>
+                <li>list item 2</li>
+            </ul>
+
+            <!--Tables-->
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th> Email</th>
+                        <th>Age</th>
+                    </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                    <td>Raveena</td>
+                    <td>ingaleravina402@gmail.com</td>
+                    <td>27</td>
+                </tr>
+
+
+              </tbody>
+
+            </table>
+<br> <!--gives break in line-->
+<hr> <!--gives horizonal line-->
+<br>
+
+        <!--forms-->
+
+        <form action= "process.php" method="POST">
+            <div>
+                <label> first Name</label>
+            <input type = "text" name="First-Name" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>  <label> Last Name</label>
+                <input type = "text" name="Last Name">
+            </div>
+            <!--textarea-->
+            <br>
+            <div> 
+                <label>Description message</label>
+                <textarea name="Message"></textarea>
+            </div>
+            <br>
+            <!--Select options -->
+           <div>
+            <label>Gender</label>
+            <select name = "gender">
+                <option value = "male">Male</option>
+                <option value = "female">Female</option>
+            </select>
+     </div>
+<br>
+     <div>
+        <label>Age</label>
+        <input type = "Number" name = "Age"  value = "30"   > <!--Can give value as well-->
+     </div>
+<br>
+     <div>
+        <label>Birthdate</label>
+        <input type = "date" name = "Birthdate">
+     </div>
+<div>
+    <input type = "submit" name ="Submit" value ="submit">
+</div>
+           
+
+        </form>
+
+
+    
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+</html>
+=======
+        <title> CSS Cheatsheet</title>
+        <link rel="stylesheet" href="CSS/CSSstyle.css">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "box-1">
+                <h1>Hello World</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Fugiat praesentium blanditiis odio aliquid enim repudiandae, incidunt neque. Possimus, ratione nobis voluptatum ullam nisi 
+                    itaque atque, laboriosam, aliquid temporibus sit architecto Lorem ipsum dolor sit amet, 
+                    consectetur adipisicing elit. Nihil, totam voluptate suscipit nisi doloribus quisquam quidem
+                     esse mnmo sed veritatis ipsum, pariatur ducimus praesentium velit fugit iure eaque rerum deleniti.</p>
+        
+                     </div>
+        </div>
+        
+        <div class = "box-2">
+            <h1>Goodbye World</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugiat praesentium blanditiis odio aliquid enim repudiandae, incidunt neque. Possimus, ratione nobis voluptatum ullam nisi 
+                itaque atque, laboriosam, aliquid temporibus sit architecto Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Nihil, totam voluptate suscipit nisi doloribus quisquam quidem
+                 esse mnmo sed veritatis ipsum, pariatur ducimus praesentium velit fugit iure eaque rerum deleniti.</p>
+
+                 <a class="button" href="Read More"></a>
+                                     </div>
+
+                <div class = "Categories";>
+                    <h2>Categories</h2>
+                    <ul>
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 2</a></li>
+                        <li><a href="#">Category 3</a></li> 
+                    </ul>
+<form>
+    
+    <div class="my-form">
+        <label> Name:</label>
+        <input type="text" name="name">
+    </div>
+    <div class="my-form">
+        <label> Email:</label>
+        <input type="text" name="email">
+    </div>
+    <div class="my-form">
+        <label> Message:</label>
+        <textarea name="Message"></textarea>    
+    </div>
+    <input class="button" type="submit" value="Submit" name="">
+</form>
+
+<div class="block">
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laudantium doloremque 
+        cumque eveniet ducimus pariatur nam porro, 
+       </p>
+</div>
+<div class="block">
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laudantium doloremque 
+        cumque eveniet ducimus pariatur nam porro, 
+       </p>
+</div>
+<div class="block">
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laudantium doloremque 
+        cumque eveniet ducimus pariatur nam porro, 
+       </p>
+</div>
+
+<div class="clr"></div> <!--This will clear any space and do not let it override on the floats-->
+
+<div id="main-block">
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laudantium doloremque 
+        cumque eveniet ducimus pariatur nam porro, 
+       </p>
+
+</div>
+<div id="side-bar">
+    <h3>Heading 1</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam laudantium doloremque 
+        cumque eveniet ducimus pariatur nam porro, 
+       </p>
+
+</div>
+
+<div class="clr"></div>
+
+<!--How to change the position now of the word-->
+<div class="p-box">
+    <h1>Hellow</h1>
+    <h2>Goodbye</h2>
+</div>
+
+<a class="fix-me button" href="">Hello fix button</a>
                 </div>
-                
-            
 
-            <section id="showcase">
-                <div class="container">
-                    <h1>Affordable Professional webdesign</h1>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
-                        it to make a type specimen book. </p>
-                </div>
+    <ul class="Mylist">
 
-            </header>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+    </ul>
 
-            <section id="newsletter">
-            <div class="container"> <!--push in middle and consolidate-->
-                <h1> Subscribe to our newsletter</h1>
-                <form>
-                    <input type="email" placeholder="Enter email..">
-                    <button type="Submit" class="button_1">Subscribe</button>
-                </form>
-             </div>
-             </section>
-      
-            <section id="boxes">
-                <div class="container">
-                <div class="box">
-                    <img src="images/HTML5_logo_and_wordmark.svg.png">
-                    <H3>HTML 5 Markup</H3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-
-                </div>
-                <div class="box">
-                    <img src="images/Css.png">
-                    <H3>CSS3 Styling</H3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-
-                </div>
-                <div class="box">
-                    <img src="images/images.png">
-                    <H3>Graphic Design</H3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</p>
-
-                </div>
-
-                </div>
-             
-            </section>
-
-            <footer>
-               <p>Acme Web Design, Copyright &copy;2023</p>
-            </footer>
-
-        </body>
-        </html>
+         <div style="margin-top:500px;"></div> <!--This push everything up so that we need not to scroll down lot-->
+    </body>
+</html>
+>>>>>>> f1f0a23 (New commits)
